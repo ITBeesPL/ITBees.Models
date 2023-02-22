@@ -29,5 +29,6 @@ namespace ITBees.Models.EmailMessages
         public Guid MessageOnServerGuid { get; set; }
         public Guid? CreatedByGuid { get; set; }
         public UserAccount CreatedBy { get; set; }
+        public string ReplyToEmail { get; set; }
     }
 }
