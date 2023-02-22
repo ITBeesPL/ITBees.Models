@@ -18,7 +18,7 @@ namespace ITBees.Models.EmailMessages
         public DateTime? SendDate { get; set; }
         public string? SenderEmailAddress { get; set; }
         public string Subject { get; set; }
-        public string? Body { get; set; }
+        public string? BodyHtml { get; set; }
         public string? BodyText { get; set; }
         public Guid EmailCampaignGuid { get; set; }
         public EmailAccount EmailAccount { get; set; }
