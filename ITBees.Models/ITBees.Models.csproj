@@ -5,4 +5,10 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Campaign\" />
+    <Folder Include="EmailMessages\" />
+    <Folder Include="MyAccount\" />
+  </ItemGroup>
+
 </Project>
