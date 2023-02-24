@@ -26,6 +26,7 @@ namespace ITBees.Models.EmailMessages
         public Company Company { get; set; }
         public Guid CompanyGuid { get; set; }
         public int OpenCount { get; set; }
+        public DateTime? LastOpenDate { get; set; }
         public Guid MessageOnServerGuid { get; set; }
         public Guid? CreatedByGuid { get; set; }
         public UserAccount CreatedBy { get; set; }
