@@ -31,5 +31,7 @@ namespace ITBees.Models.EmailMessages
         public Guid? CreatedByGuid { get; set; }
         public UserAccount CreatedBy { get; set; }
         public string ReplyToEmail { get; set; }
+        public string ErrorMessage { get; set; }
+        public bool SendFailed { get; set; }
     }
 }
