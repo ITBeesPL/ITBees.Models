@@ -25,5 +25,7 @@ namespace ITBees.Models.Users
                 return $"{FirstName} {LastName}";
             }
         }
+
+        public Guid? LastUsedCompanyGuid { get; set; }
     }
 }

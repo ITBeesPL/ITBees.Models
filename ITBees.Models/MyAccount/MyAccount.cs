@@ -12,5 +12,7 @@ namespace ITBees.Models.MyAccount
         public string LastName { get; set; }
         public Guid Guid { get; set; }
         public List<Company> Companies { get; set; }
+        public Company LastUsedCompany { get; set; }
+        public Guid LastUsedCompanyGuid { get; set; }
     }
 }
