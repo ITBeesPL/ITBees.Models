@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Campaign\" />
     <Folder Include="EmailMessages\" />
     <Folder Include="MyAccount\" />
     <Folder Include="Reminders\" />
