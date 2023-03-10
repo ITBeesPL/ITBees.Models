@@ -9,8 +9,6 @@ namespace ITBees.Models.Users
 
         public string Email { get; set; }
 
-        public string AspNetUserId { get; set; }
-
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
@@ -27,5 +25,11 @@ namespace ITBees.Models.Users
         }
 
         public Guid? LastUsedCompanyGuid { get; set; }
+
+        public DateTime? LastLoginDateTime { get; set; }
+
+        public int LoginsCount { get; set; }
+
+        public DateTime SetupTime { get; set; }
     }
 }
