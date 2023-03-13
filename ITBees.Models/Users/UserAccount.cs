@@ -1,5 +1,6 @@
 ﻿using System.Runtime.Serialization;
 using System;
+using ITBees.Models.Languages;
 
 namespace ITBees.Models.Users
 {
@@ -31,5 +32,9 @@ namespace ITBees.Models.Users
         public int LoginsCount { get; set; }
 
         public DateTime SetupTime { get; set; }
+
+        public Language Language { get; set; }
+
+        public int LanguageId { get; set; }
     }
 }
