@@ -38,7 +38,7 @@
     public class Dz : Language { public Dz() { Id = 35; Code = "dz"; Name = "Dzongkha"; IsSupported = false; } };
     public class Ee : Language { public Ee() { Id = 36; Code = "ee"; Name = "Ewe"; IsSupported = false; } };
     public class El : Language { public El() { Id = 37; Code = "el"; Name = "Greek"; IsSupported = false; } };
-    public class En : Language { public En() { Id = 38; Code = "en"; Name = "English"; IsSupported = false; } };
+    public class En : Language { public En() { Id = 38; Code = "en"; Name = "English"; IsSupported = true; } };
     public class Eo : Language { public Eo() { Id = 39; Code = "eo"; Name = "Esperanto"; IsSupported = false; } };
     public class Es : Language { public Es() { Id = 40; Code = "es"; Name = "Spanish"; IsSupported = false; } };
     public class Et : Language { public Et() { Id = 41; Code = "et"; Name = "Estonian"; IsSupported = false; } };
