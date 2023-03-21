@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using ITBees.Models.Companies;
+using ITBees.Models.Languages;
 
 namespace ITBees.Models.MyAccount
 {
@@ -14,5 +15,6 @@ namespace ITBees.Models.MyAccount
         public List<Company> Companies { get; set; }
         public Company LastUsedCompany { get; set; }
         public Guid LastUsedCompanyGuid { get; set; }
+        public Language Language { get; set; }
     }
 }
