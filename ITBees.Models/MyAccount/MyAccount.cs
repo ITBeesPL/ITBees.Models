@@ -16,5 +16,6 @@ namespace ITBees.Models.MyAccount
         public Company LastUsedCompany { get; set; }
         public Guid LastUsedCompanyGuid { get; set; }
         public Language Language { get; set; }
+        public string DisplayName { get; set; }
     }
 }
