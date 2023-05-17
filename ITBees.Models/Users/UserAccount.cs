@@ -1,5 +1,6 @@
 ﻿using System.Runtime.Serialization;
 using System;
+using System.Collections.Generic;
 using ITBees.Models.Languages;
 
 namespace ITBees.Models.Users
@@ -36,5 +37,6 @@ namespace ITBees.Models.Users
         public Language Language { get; set; }
 
         public int LanguageId { get; set; }
+        public List<UserAccountModule> UserAccountModules { get; set; }
     }
 }
