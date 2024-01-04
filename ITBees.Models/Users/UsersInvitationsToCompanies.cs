@@ -16,5 +16,6 @@ namespace ITBees.Models.Users
         public DateTime CreatedDate { get; set; }
         public UserAccount CreatedBy { get; set; }
         public Guid CreatedByGuid { get; set; }
+        public bool Applied { get; set; }
     }
 }
