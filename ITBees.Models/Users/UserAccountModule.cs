@@ -16,6 +16,7 @@ namespace ITBees.Models.Users
         public Guid? CompanyGuid { get; set; }
         public Company Company { get; set; }
         public Guid UserAccountGuid { get; set; }
+
         public UserAccount UserAccount { get; set; }
     }
 }
