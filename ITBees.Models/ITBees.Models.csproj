@@ -9,6 +9,7 @@
     <Folder Include="EmailMessages\" />
     <Folder Include="MyAccount\" />
     <Folder Include="Reminders\" />
+    <Folder Include="Roles\Roles\" />
   </ItemGroup>
 
 </Project>
