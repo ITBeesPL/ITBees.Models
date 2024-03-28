@@ -1,7 +1,9 @@
-﻿namespace ITBees.Models.Interfaces;
-
-public class GpsLocationIm
+﻿namespace ITBees.Models.Interfaces
 {
-    public double Latitude { get; set; }
-    public double Longitude { get; set; }
+
+    public class GpsLocationIm
+    {
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
+    }
 }

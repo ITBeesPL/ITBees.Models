@@ -9,5 +9,6 @@ namespace ITBees.Models.Users
         public Guid LastUsedCompanyGuid { get; set; }
         public Language Language { get; set; }
         public string DisplayName { get; set; }
+        public string[] UserRoles { get; set; }
     }
 }
