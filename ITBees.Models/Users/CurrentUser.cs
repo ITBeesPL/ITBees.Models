@@ -10,5 +10,6 @@ namespace ITBees.Models.Users
         public Language Language { get; set; }
         public string DisplayName { get; set; }
         public string[] UserRoles { get; set; }
+        public string Email { get; set; }
     }
 }
