@@ -1,7 +1,7 @@
 ﻿namespace ITBees.Models.Common
 {
 
-    public class GpsLocation
+    public partial class GpsLocation
     {
         public double Latitude { get; set; }
         public double Longitude { get; set; }
