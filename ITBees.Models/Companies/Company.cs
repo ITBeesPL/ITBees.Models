@@ -20,12 +20,4 @@ namespace ITBees.Models.Companies
         public string Nip { get; set; }
         public CompanyPlatformSubscription CompanyPlatformSubscription { get; set; }
     }
-
-    public class CompanyPlatformSubscription
-    {
-        public Guid? SubscriptionPlanGuid { get; set; }
-        public string? SubscriptionPlanName { get; set; }
-        public DateTime? SubscriptionActiveTo { get; set; }
-        public bool TrialExpired { get; set; }
-    }
 }
