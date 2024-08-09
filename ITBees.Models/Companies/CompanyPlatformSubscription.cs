@@ -1,7 +1,9 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
 
 namespace ITBees.Models.Companies;
 
+[Owned]
 public class CompanyPlatformSubscription
 {
     public Guid? SubscriptionPlanGuid { get; set; }
