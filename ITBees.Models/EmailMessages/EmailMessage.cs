@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using ITBees.Models.Companies;
 using ITBees.Models.EmailAccounts;
 using ITBees.Models.Users;
@@ -33,5 +34,6 @@ namespace ITBees.Models.EmailMessages
         public string ReplyToEmail { get; set; }
         public string ErrorMessage { get; set; }
         public bool SendFailed { get; set; }
+        public List<EmailAttachment> EmailAttachments { get; set; }
     }
 }
