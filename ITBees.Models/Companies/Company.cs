@@ -19,6 +19,5 @@ namespace ITBees.Models.Companies
         public string City { get; set; }
         public string Nip { get; set; }
         public CompanyPlatformSubscription CompanyPlatformSubscription { get; set; }
-        public Guid? CompanyPlatformSubscriptionGuid { get; set; }
     }
 }
