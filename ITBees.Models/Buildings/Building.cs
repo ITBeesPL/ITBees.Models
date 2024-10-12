@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using ITBees.Models.Common;
+using ITBees.Models.Companies;
 using ITBees.Models.Users;
 
 namespace ITBees.Models.Buildings;
@@ -16,4 +17,6 @@ public class Building
     public Guid CreatedByGuid { get; set; }
     public DateTime Created { get; set; }
     public bool IsActive { get; set; }
+    public Guid? CompanyGuid { get; set; }
+    public Company Company { get; set; }
 }
