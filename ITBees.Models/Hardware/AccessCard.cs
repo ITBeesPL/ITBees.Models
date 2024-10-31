@@ -28,3 +28,15 @@ public class AccessCard
     public Company Company { get; set; }
     public Guid CompanyGuid { get; set; }
 }
+
+public enum AccessCardSortColumns
+{
+    CardId,
+    ValidDate,
+    OwnerName,
+    OwnerEmail,
+    Created,
+    IsActive,
+    InvitationSend,
+    InvitationSendDateTime
+}
