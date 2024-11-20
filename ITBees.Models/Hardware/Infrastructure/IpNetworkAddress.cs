@@ -16,6 +16,6 @@ public class IpNetworkAddress
     public UserAccount CreatedBy { get; set; }
     public Guid CreatedByGuid { get; set; }
     public UserAccount UpdatedBy { get; set; }
-    public Guid UpdatedByGuid { get; set; }
+    public Guid? UpdatedByGuid { get; set; }
     public bool IsActive { get; set; }
 }
