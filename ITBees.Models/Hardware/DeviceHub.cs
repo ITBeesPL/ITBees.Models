@@ -21,7 +21,7 @@ public abstract class DeviceHub
     public Guid? CompanyGuid { get; set; }
     public Building Building { get; set; }
     public Guid? BuildingGuid { get; set; }
-    public DeviceType DeviceType { get; set; }
+    //public DeviceType DeviceType { get; set; }
     public int DeviceTypeId { get; set; }
     public List<DeviceHubDevice> Devices { get; set; }
 }
