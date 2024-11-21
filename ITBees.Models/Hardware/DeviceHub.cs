@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using ITBees.Models.Buildings;
 using ITBees.Models.Companies;
@@ -17,7 +18,10 @@ public abstract class DeviceHub
     public DateTime Created { get; set; }
     public bool IsActive { get; set; }
     public Company Company { get; set; }
-    public Guid?  CompanyGuid { get; set; }
+    public Guid? CompanyGuid { get; set; }
     public Building Building { get; set; }
     public Guid? BuildingGuid { get; set; }
+    public DeviceType DeviceType { get; set; }
+    public int DeviceTypeId { get; set; }
+    public List<DeviceHubDevice> Devices { get; set; }
 }
