@@ -11,6 +11,9 @@ public class Building
 {
     [Key] public Guid Guid { get; set; }
     public string Name { get; set; }
+    public string? City { get; set; }
+    public string? PostCode { get; set; }
+    public string? Street { get; set; }
     public GpsLocation GpsLocation { get; set; }
     public List<BuildingDeviceHub> BuildingDeviceHubs { get; set; }
     public UserAccount CreatedBy { get; set; }
