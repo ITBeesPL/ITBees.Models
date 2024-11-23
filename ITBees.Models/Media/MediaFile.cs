@@ -20,4 +20,5 @@ public class MediaFile
     public DateTime Created { get; set; }
     public bool IsActive { get; set; }
     public long FileSize { get; set; }
+    public bool PublicVisible { get; set; }
 }
