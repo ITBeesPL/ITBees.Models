@@ -11,6 +11,7 @@ public class MediaFile
     public Guid Guid { get; set; }
     public string Type { get; set; }
     public string FileName { get; set; }
+    public string OriginalFileName { get; set; }
     public string FileExtension { get; set; }
     public string FilePath { get; set; }
     public Company Company { get; set; }
