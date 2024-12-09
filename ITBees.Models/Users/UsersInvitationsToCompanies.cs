@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using ITBees.Models.Companies;
+using Microsoft.AspNetCore.Identity;
 
 namespace ITBees.Models.Users
 {
@@ -17,5 +18,7 @@ namespace ITBees.Models.Users
         public UserAccount CreatedBy { get; set; }
         public Guid CreatedByGuid { get; set; }
         public bool Applied { get; set; }
+        public IdentityRole IdentityRole { get; set; }
+        public Guid? IdentityRoleId { get; set; }
     }
 }

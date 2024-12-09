@@ -38,5 +38,6 @@ namespace ITBees.Models.Users
 
         public int LanguageId { get; set; }
         public List<UserAccountModule> UserAccountModules { get; set; }
+        public List<UsersInCompany> UsersInCompanies{ get; set; }
     }
 }

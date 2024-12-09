@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using ITBees.Models.Companies;
-using ITBees.Models.MyAccount;
 
 namespace ITBees.Models.Users
 {
@@ -16,7 +15,6 @@ namespace ITBees.Models.Users
         public Guid? CompanyGuid { get; set; }
         public Company Company { get; set; }
         public Guid UserAccountGuid { get; set; }
-
         public UserAccount UserAccount { get; set; }
     }
 }

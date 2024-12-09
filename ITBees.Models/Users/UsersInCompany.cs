@@ -1,5 +1,6 @@
 ﻿using System;
 using ITBees.Models.Companies;
+using Microsoft.AspNetCore.Identity;
 
 namespace ITBees.Models.Users
 {
@@ -13,5 +14,7 @@ namespace ITBees.Models.Users
         public UserAccount AddedBy { get; set; }
         public Guid AddedByGuid { get; set; }
         public DateTime AddedDate { get; set; }
+        public IdentityRole IdentityRole { get; set; }
+        public  Guid? IdentityRoleId { get; set; }
     }
 }
