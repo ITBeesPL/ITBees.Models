@@ -18,7 +18,7 @@ namespace ITBees.Models.Users
         public UserAccount CreatedBy { get; set; }
         public Guid CreatedByGuid { get; set; }
         public bool Applied { get; set; }
-        public IdentityRole IdentityRole { get; set; }
+        public FasIdentityRole IdentityRole { get; set; }
         public Guid? IdentityRoleId { get; set; }
     }
 }
