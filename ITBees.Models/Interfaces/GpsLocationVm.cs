@@ -7,6 +7,7 @@ namespace ITBees.Models.Interfaces
     {
         public double Latitude { get; set; }
         public double Longitude { get; set; }
+        public ushort Altitude { get; set; }
 
         public GpsLocationVm()
         {
@@ -18,11 +19,18 @@ namespace ITBees.Models.Interfaces
             Latitude = latitude;
             Longitude = longitude;
         }
+        public GpsLocationVm(double latitude, double longitude, ushort altitude)
+        {
+            Latitude = latitude;
+            Longitude = longitude;
+            Altitude = altitude;
+        }
 
         public GpsLocationVm(GpsLocation x)
         {
             Latitude = x.Latitude;
             Longitude = x.Longitude;
+            Altitude = x.Altitude;
         }
     }
 }
