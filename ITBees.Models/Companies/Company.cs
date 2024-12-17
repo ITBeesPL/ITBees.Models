@@ -18,6 +18,10 @@ namespace ITBees.Models.Companies
         public string PostCode { get; set; }
         public string City { get; set; }
         public string Nip { get; set; }
+        public string? Email { get; set; }
+        public string? Phones { get; set; }
+        public string? CompanyInvoiceHeader { get; set; }
         public CompanyPlatformSubscription CompanyPlatformSubscription { get; set; }
+        
     }
 }
