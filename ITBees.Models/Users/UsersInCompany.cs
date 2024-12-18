@@ -15,7 +15,7 @@ namespace ITBees.Models.Users
         public DateTime AddedDate { get; set; }
         public FasIdentityRole IdentityRole { get; set; }
         public  Guid? IdentityRoleId { get; set; }
-        public bool InvitationAccepted { get; set; }
+        public bool? InvitationAccepted { get; set; }
         public DateTime? InvitationAcceptedDateTime { get; set; }
     }
 }
