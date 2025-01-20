@@ -13,4 +13,6 @@ public class FasIdentityRole : IdentityRole<Guid>
     {
         
     }
+
+    public string RoleDescription { get; set; }
 }
