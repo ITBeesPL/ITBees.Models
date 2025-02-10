@@ -1,6 +1,7 @@
 ﻿using System.Runtime.Serialization;
 using System;
 using System.Collections.Generic;
+using ITBees.Models.Companies;
 using ITBees.Models.Languages;
 
 namespace ITBees.Models.Users
@@ -27,6 +28,7 @@ namespace ITBees.Models.Users
         }
 
         public Guid? LastUsedCompanyGuid { get; set; }
+        public Company LastUsedCompany { get; set; }
 
         public DateTime? LastLoginDateTime { get; set; }
 
