@@ -41,4 +41,8 @@ public class PlatformSubscriptionPlan
     public string? AppleProductId { get; set; }
     public string? BgColor { get; set; }
     public string? FgColor { get; set; }
+    public DateTime? Modified { get; set; }
+    public UserAccount ModifiedBy { get; set; }
+    public Guid? ModifiedByGuid { get; set; }
+    
 }
