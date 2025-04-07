@@ -20,4 +20,8 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Octopark\Octopark.Models\Octopark.Models.csproj" />
+  </ItemGroup>
+
 </Project>
