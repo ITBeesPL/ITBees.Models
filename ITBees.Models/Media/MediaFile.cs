@@ -17,7 +17,7 @@ public class MediaFile
     public Company Company { get; set; }
     public Guid? CompanyGuid { get; set; }
     public UserAccount CreatedBy { get; set; }
-    public Guid CreatedByGuid { get; set; }
+    public Guid? CreatedByGuid { get; set; }
     public DateTime Created { get; set; }
     public bool IsActive { get; set; }
     public long FileSize { get; set; }
