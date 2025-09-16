@@ -2,7 +2,7 @@
 
 namespace ITBees.Models.Languages
 {
-    public abstract class Language
+    public class Language
     {
         [Key]
         public int Id { get; set; }
