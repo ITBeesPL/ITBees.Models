@@ -28,7 +28,6 @@ public class AccessCard
     public DateTime? InvitationSendDateTime { get; set; }
     public Company Company { get; set; }
     public Guid CompanyGuid { get; set; }
-    public List<AccessCardCardGroup> AccessCardCardGroups { get; set; }
 }
 
 public enum AccessCardSortColumns
