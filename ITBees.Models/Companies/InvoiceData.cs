@@ -8,7 +8,7 @@ public class InvoiceData
 {
     public Guid Guid { get; set; }
     public Company Company { get; set; }
-    public Guid CompanyGuid { get; set; }
+    public Guid? CompanyGuid { get; set; }
     public string NIP { get; set; }
     public string Street { get; set; }
     public string City { get; set; }
@@ -17,7 +17,7 @@ public class InvoiceData
     public string PostCode { get; set; }
     public string InvoiceEmail { get; set; }
     public UserAccount CreatedBy { get; set; }
-    public Guid CreatedByGuid { get; set; }
+    public Guid? CreatedByGuid { get; set; }
     public DateTime Created { get; set; }
     public DateTime? ModifiedDate { get; set; }
     public UserAccount ModifiedBy { get; set; }
