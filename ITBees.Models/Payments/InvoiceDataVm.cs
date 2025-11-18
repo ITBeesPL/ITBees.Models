@@ -1,0 +1,43 @@
+﻿using System;
+
+namespace ITBees.Models.Payments;
+
+public class InvoiceDataVm
+{
+    public InvoiceDataVm()
+    {
+
+    }
+    public InvoiceDataVm(dynamic x)
+    {
+        Guid = x.Guid;
+        CompanyGuid = x.CompanyGuid;
+        NIP = x.NIP;
+        Street = x.Street;
+        City = x.City;
+        Country = x.Country;
+        CompanyName = x.CompanyName;
+        PostCode = x.PostCode;
+        InvoiceEmail = x.InvoiceEmail;
+        SubscriptionPlan = x.SubscriptionPlan?.PlanName;
+        SubscriptionPlanGuid = x.SubscriptionPlan?.Guid;
+        InvoiceRequested = x.InvoiceRequested;
+        CreatedByGuid = x.CreatedByGuid;
+    }
+
+    public Guid? CreatedByGuid { get; set; }
+
+    public bool InvoiceRequested { get; set; }
+    public Guid? SubscriptionPlanGuid { get; set; }
+
+    public string SubscriptionPlan { get; set; }
+    public Guid Guid { get; set; }
+    public Guid? CompanyGuid { get; set; }
+    public string NIP { get; set; }
+    public string Street { get; set; }
+    public string City { get; set; }
+    public string Country { get; set; }
+    public string CompanyName { get; set; }
+    public string PostCode { get; set; }
+    public string InvoiceEmail { get; set; }
+}
