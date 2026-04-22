@@ -28,14 +28,18 @@ public class AccessCard
     public DateTime? InvitationSendDateTime { get; set; }
     public Company Company { get; set; }
     public Guid CompanyGuid { get; set; }
+    public string OwnerPhoneNumber { get; set; }
+    public DateTime? StartValidDate { get; set; }
 }
 
 public enum AccessCardSortColumns
 {
     CardId,
     ValidDate,
+    StartValidDate,
     OwnerName,
     OwnerEmail,
+    OwnerPhoneNumber,
     Created,
     IsActive,
     InvitationSend,
