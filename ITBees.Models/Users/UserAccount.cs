@@ -18,6 +18,8 @@ namespace ITBees.Models.Users
 
         public string Phone { get; set; }
 
+        public string Nip { get; set; }
+
         [IgnoreDataMember]
         public string DisplayName
         {
